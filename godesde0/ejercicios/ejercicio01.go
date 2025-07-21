@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func ConvertStirng (text string) (int, string) {
+func ConvertString (text string) (int, string) {
 	entero, error := strconv.Atoi(text)
 	if error != nil {
 		fmt.Println("Error al convertir el texto a entero:", error)
