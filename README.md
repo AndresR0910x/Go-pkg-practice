@@ -36,4 +36,4 @@ A humble repo where I:
 
 ```bash
 git clone https://github.com/AndresR0910x/Go-pkg-practice.git
-cd your-go-repo
+cd Go-pkg-practice
