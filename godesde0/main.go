@@ -31,6 +31,6 @@ func main() {
 	teclado.IngresoNumeros()
 
 	iteraciones.Iterar()*/
-	funciones.LLamarClosure()
+	funciones.Exponencia(5)
 	// Ejercicio 01
 }
