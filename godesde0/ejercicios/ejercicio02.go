@@ -10,7 +10,8 @@ import (
 var numero int
 var err error
 
-func InputKey() {
+func InputKey()  string {
+	var multiplicacion string
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Println("Ingresa un numero por teclado: ")
 	for {
@@ -18,18 +19,21 @@ func InputKey() {
 			numero, err = strconv.Atoi(scanner.Text())
 			if err != nil {
 				fmt.Println("Error vuelve a ingresar un numero porfavor")
+				multiplicacion = "No es un numero!"
 			} else {
-				TablaMultiplicar(numero)
+				multiplicacion = TablaMultiplicar(numero)
 				break
 			}
 		}
 	}
-
+	return multiplicacion
 }
 
-func TablaMultiplicar(numero int) {
+func TablaMultiplicar(numero int) string {
+	var multiplicacion string
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d x %d = %d\n", numero, i, numero*i)
-		fmt.Println("Presiona enter para continuar...")
+		multiplicacion += fmt.Sprintf("%d x %d = %d\n", numero, i, numero*i)
 	}
+	return multiplicacion
+
 }

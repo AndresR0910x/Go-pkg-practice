@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/MrEngineer/godesde0/ejercicios"	
+	"github.com/MrEngineer/godesde0/files"
 )
 
 func main() {
@@ -31,5 +31,5 @@ func main() {
 	teclado.IngresoNumeros()
 
 	iteraciones.Iterar()*/
-	ejercicios.InputKey()
+	files.LeerArchivo()
 }
