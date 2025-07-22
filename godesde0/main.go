@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/MrEngineer/godesde0/ejercicios"
+	"github.com/MrEngineer/godesde0/ejercicios"	
 )
 
 func main() {
@@ -23,9 +21,15 @@ func main() {
 		fmt.Printf("%s \n", os)
 
 	}*/
-	numero, texto := ejercicios.ConvertStirng("Andresito")
+	/**numero, texto := ejercicios.ConvertString("45")
 
 	fmt.Println("Número convertido:", numero)
 	fmt.Println("Texto original:", texto)
 
+	// Sirve para escanear por teclado
+
+	teclado.IngresoNumeros()
+
+	iteraciones.Iterar()*/
+	ejercicios.InputKey()
 }
