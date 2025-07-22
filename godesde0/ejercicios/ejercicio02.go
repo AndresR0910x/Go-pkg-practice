@@ -30,5 +30,6 @@ func InputKey() {
 func TablaMultiplicar(numero int) {
 	for i := 1; i <= 10; i++ {
 		fmt.Printf("%d x %d = %d\n", numero, i, numero*i)
+		fmt.Println("Presiona enter para continuar...")
 	}
 }
