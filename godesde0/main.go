@@ -1,9 +1,5 @@
 package main
 
-import (
-	"github.com/MrEngineer/godesde0/users"
-)
-
 func main() {
 	/**estado, texto := variables.ConvierteATexto(1588)
 	fmt.Println(estado)
@@ -31,6 +27,6 @@ func main() {
 	teclado.IngresoNumeros()
 
 	iteraciones.Iterar()*/
-	users.AltaUsuario()
+
 	// Ejercicio 01
 }
