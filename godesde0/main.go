@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/MrEngineer/godesde0/funciones"
+	"github.com/MrEngineer/godesde0/mapas"
 )
 
 func main() {
@@ -31,6 +31,6 @@ func main() {
 	teclado.IngresoNumeros()
 
 	iteraciones.Iterar()*/
-	funciones.Exponencia(5)
+	mapas.MostrarMapas()
 	// Ejercicio 01
 }
