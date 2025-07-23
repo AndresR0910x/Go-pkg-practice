@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/MrEngineer/godesde0/mapas"
+	"github.com/MrEngineer/godesde0/users"
 )
 
 func main() {
@@ -31,6 +31,6 @@ func main() {
 	teclado.IngresoNumeros()
 
 	iteraciones.Iterar()*/
-	mapas.MostrarMapas()
+	users.AltaUsuario()
 	// Ejercicio 01
 }
